@@ -8,3 +8,6 @@ C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastat
 C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastatur\obj\Release\GrTastatur.exe
 C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastatur\obj\Release\GrTastatur.pdb
 C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastatur\obj\Release\GrTastatur.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Release\GrTastatur.exe.config
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Release\GrTastatur.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Release\GrTastatur.pdb

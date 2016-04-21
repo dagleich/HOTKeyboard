@@ -381,6 +381,7 @@ namespace WindowsFormsApplication1
         {
             if (textBox1.TextLength > 0) Clipboard.SetText(textBox1.Text);
             textBox1.Focus();
+            //Hier wird kopiert.
         }
 
         private void clearBtn_Click(object sender, EventArgs e)
