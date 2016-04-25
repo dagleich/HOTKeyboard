@@ -130,6 +130,8 @@
   <ItemGroup>
     <Content Include="DGIcon.ico" />
     <Content Include="GrTastatur_Icon.ico" />
+    <Content Include="Wordlist.xml" />
+    <Content Include="Wordlist_Schema.xml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
