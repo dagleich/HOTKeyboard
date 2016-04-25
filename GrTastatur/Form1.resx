@@ -195,20 +195,20 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button24.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
   <data name="button24.HelpString" xml:space="preserve">
@@ -216,14 +216,16 @@
   </data>
   <data name="clearBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAEYSURBVGhD7ZhZCsMwDEQDPWS303Wh9JCFRhMYMMFKU1tKbNCD+Ug+7DduKMJDEARBEAQdcZA8
-        JcfpyZar5C7BHi5g4bfkK/lILEtAHmti7ZfEpQROHhsw2PAkqSWVZx4ScyA736i2RE4ezx6f6IRlic3l
-        iVbiLFnLbvIEsqUldpcnJSWakSdaiYtkTnPyBLK/SjQrT5ZKNC9PtBJdyJPcaadpWp5oJbqQB10X6PoT
-        0v5tcu9qBkAXNHmctuUA6MKSPGm2xBp5opVYMwC68I88KRkAXSiRJ7uXqJEnWol0AHTBQp4sDYAuWMqT
-        TUvg0mm+UY08yZW4SczBZRMunSzlSfrr4v7J9XbO82oRJ+8mHwRBEASBLcMwArwADH3SbC5cAAAAAElF
-        TkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAARhJREFUaEPt
+        mFkKwzAMRAM9ZLfTdaH0kIVGExgwwUpTW0ps0IP5SD7sN24owkMQBEEQBB1xkDwlx+nJlqvkLsEeLmDh
+        t+Qr+UgsS0Aea2Ltl8SlBE4eGzDY8CSpJZVnHhJzIDvfqLZETh7PHp/ohGWJzeWJVuIsWctu8gSypSV2
+        lyclJZqRJ1qJi2ROc/IEsr9KNCtPlko0L0+0El3Ik9xpp2lanmglupAHXRfo+hPS/m1y72oGQBc0eZy2
+        5QDowpI8abbEGnmilVgzALrwjzwpGQBdKJEnu5eokSdaiXQAdMFCniwNgC5YypNNS+DSab5RjTzJlbhJ
+        zMFlEy6dLOVJ+uvi/sn1ds7zahEn7yYfBEEQBIEtwzACvAAMfdJsLlwAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="copySuggestionBtn.HelpString" xml:space="preserve">
+    <value>Durch das Klicken auf "Kopieren" wird der Inhalt des Textfelds auf der linken Seite in den Zwischenspeicher geladen und kann in jedem beliebigen Programm durch "Einfügen" oder Strg + "v" wieder eingefügt werden.</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

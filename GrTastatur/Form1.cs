@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using GrTastatur;
+using System.Xml;
 
 namespace WindowsFormsApplication1
 {
@@ -16,11 +17,16 @@ namespace WindowsFormsApplication1
     public partial class Form1 : Form
     {
 
+        public XmlDocument doc = new XmlDocument();
+        public XmlNodeList nodeList;
+        public XmlNode root;
+
         public Form1()
         {
             InitializeComponent();
             textBox1.KeyPress += new KeyPressEventHandler(textBox1_KeyPress);
             this.ActiveControl = textBox1;
+            
         }
 
 
@@ -30,6 +36,9 @@ namespace WindowsFormsApplication1
             /*var _point = new System.Drawing.Point(Cursor.Position.X, Cursor.Position.Y);
             Top = _point.Y;
             Left = _point.X;*/
+            doc.Load(@"Wordlist.xml");
+            root = doc.DocumentElement;
+            nodeList = root.SelectNodes("descendant::word");
         }
 
 
@@ -63,6 +72,22 @@ namespace WindowsFormsApplication1
                 case 'c': addTextToTextBox("ψ", e); break;
                 case 'w': addTextToTextBox("ω", e); changeButtonTexts(e.KeyChar); break;
             }
+
+            
+
+            comboBox1.Items.Clear();
+            int i = 0;
+            //Change the price on the books.
+            foreach (XmlNode word in nodeList)
+            {
+                if ((word.FirstChild.InnerText.IndexOf(textBox1.Text) > -1) && i < 20)
+                {
+                    comboBox1.Items.Add(word.FirstChild.NextSibling.InnerText);
+                    i++;
+                }
+            }
+
+            if (comboBox1.Items.Count > 0) comboBox1.Text = comboBox1.Items[0].ToString();
         }
 
         private void addTextToTextBox(string newChar, KeyPressEventArgs e)
@@ -387,6 +412,12 @@ namespace WindowsFormsApplication1
         private void clearBtn_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
+            textBox1.Focus();
+        }
+
+        private void copySuggestionBtn_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.Text.Length > 0) Clipboard.SetText(comboBox1.Text);
             textBox1.Focus();
         }
     }
