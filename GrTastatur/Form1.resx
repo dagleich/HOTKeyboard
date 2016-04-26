@@ -214,6 +214,9 @@
   <data name="button24.HelpString" xml:space="preserve">
     <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
   </data>
+  <data name="copySuggestionBtn.HelpString" xml:space="preserve">
+    <value>Durch das Klicken auf "Kopieren" wird der Inhalt des Textfelds auf der linken Seite in den Zwischenspeicher geladen und kann in jedem beliebigen Programm durch "Einfügen" oder Strg + "v" wieder eingefügt werden.</value>
+  </data>
   <data name="clearBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAARhJREFUaEPt
@@ -223,9 +226,6 @@
         5QDowpI8abbEGnmilVgzALrwjzwpGQBdKJEnu5eokSdaiXQAdMFCniwNgC5YypNNS+DSab5RjTzJlbhJ
         zMFlEy6dLOVJ+uvi/sn1ds7zahEn7yYfBEEQBIEtwzACvAAMfdJsLlwAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="copySuggestionBtn.HelpString" xml:space="preserve">
-    <value>Durch das Klicken auf "Kopieren" wird der Inhalt des Textfelds auf der linken Seite in den Zwischenspeicher geladen und kann in jedem beliebigen Programm durch "Einfügen" oder Strg + "v" wieder eingefügt werden.</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

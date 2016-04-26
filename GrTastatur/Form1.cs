@@ -25,6 +25,8 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
             textBox1.KeyPress += new KeyPressEventHandler(textBox1_KeyPress);
+            textBox1.KeyDown += new KeyEventHandler(textBox1_KeyDown);
+            this.KeyPress += new KeyPressEventHandler(Form1_KeyPress);
             this.ActiveControl = textBox1;
             
         }
@@ -42,10 +44,52 @@ namespace WindowsFormsApplication1
         }
 
 
+        void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            switch (e.KeyChar)
+            {
+                case (Char)Keys.Escape:
+                    textBox1.Clear();
+                    textBox1.Focus();
+                    e.Handled = true;
+                    break;
+            }
+        }
+
+        void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Escape:
+                    textBox1.Clear();
+                    e.Handled = true;
+                    break;
+                case Keys.Left:
+                    if (textBox1.SelectionStart > 1)
+                    {
+                        textBox1.SelectionStart = textBox1.SelectionStart - 1;
+                        changeButtonTexts(textBox1.Text[textBox1.SelectionStart - 1]);
+                        e.Handled = true;
+                    }
+                    //textBox1.Text = "Geht!";
+                    //changeButtonTexts('η');
+                    break;
+                case Keys.Right:
+                    if (textBox1.SelectionStart > 0)
+                    {
+                        //textBox1.SelectionStart = textBox1.SelectionStart - 1;
+                        changeButtonTexts(textBox1.Text[textBox1.SelectionStart]);
+                        //e.Handled = true;
+                    }
+                    break;
+            }
+        }
+
         void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             switch (e.KeyChar)
             {
+                //case (Char)Keys.Escape: textBox1.Clear(); break;
                 case 'a': addTextToTextBox("α", e); changeButtonTexts(e.KeyChar); break;
                 case 'b': addTextToTextBox("β", e); break;
                 case 'g': addTextToTextBox("γ", e); break;
@@ -80,10 +124,11 @@ namespace WindowsFormsApplication1
             //Change the price on the books.
             foreach (XmlNode word in nodeList)
             {
-                if ((word.FirstChild.InnerText.IndexOf(textBox1.Text) > -1) && i < 20)
+                if (word.FirstChild.InnerText.IndexOf(textBox1.Text) > -1)
                 {
                     comboBox1.Items.Add(word.FirstChild.NextSibling.InnerText);
                     i++;
+                    if (i == 10) break;
                 }
             }
 
@@ -103,6 +148,7 @@ namespace WindowsFormsApplication1
             clearAllButtons();
             switch (rootChar)
             {
+                case 'α':
                 case 'a':
                     button1.Text = "ἀ";
                     button2.Text = "ἁ";
@@ -128,6 +174,7 @@ namespace WindowsFormsApplication1
                     button22.Text = "ᾶ";
                     button23.Text = "ᾷ";
                     break;
+                case 'ε':
                 case 'e':
                     button1.Text = "ἐ";
                     button2.Text = "ἑ";
@@ -138,6 +185,7 @@ namespace WindowsFormsApplication1
                     button7.Text = "ὲ";
                     button8.Text = "έ";
                     break;
+                case 'η':
                 case 'h':
                     button1.Text = "ἠ";
                     button2.Text = "ἡ";
@@ -163,6 +211,7 @@ namespace WindowsFormsApplication1
                     button22.Text = "ῆ";
                     button23.Text = "ῇ";
                     break;
+                case 'ι':
                 case 'i':
                     button1.Text = "ἰ";
                     button2.Text = "ἱ";
@@ -176,6 +225,7 @@ namespace WindowsFormsApplication1
                     button10.Text = "ί";
                     button11.Text = "ῖ";
                     break;
+                case 'ο':
                 case 'o':
                     button1.Text = "ὀ";
                     button2.Text = "ὁ";
@@ -186,10 +236,12 @@ namespace WindowsFormsApplication1
                     button7.Text = "ὸ";
                     button8.Text = "ό";
                     break;
+                case 'ρ':
                 case 'r':
                     button1.Text = "ῤ";
                     button2.Text = "ῥ";
                     break;
+                case 'υ':
                 case 'y':
                     button1.Text = "ὐ";
                     button2.Text = "ὑ";
@@ -203,6 +255,7 @@ namespace WindowsFormsApplication1
                     button10.Text = "ύ";
                     button11.Text = "ῦ";
                     break;
+                case 'ω':
                 case 'w':
                     button1.Text = "ὠ";
                     button2.Text = "ὡ";
@@ -419,6 +472,17 @@ namespace WindowsFormsApplication1
         {
             if (comboBox1.Text.Length > 0) Clipboard.SetText(comboBox1.Text);
             textBox1.Focus();
+        }
+        
+
+        private void comboBox1_HitEnter(object sender, EventArgs e)
+        {
+            comboBox1.DroppedDown = true;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = comboBox1.Text;
         }
     }
 }
