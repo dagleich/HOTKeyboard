@@ -148,6 +148,29 @@ namespace WindowsFormsApplication1
             clearAllButtons();
             switch (rootChar)
             {
+                case 'ἀ':
+                case 'ἁ':
+                case 'ἂ':
+                case 'ἃ':
+                case 'ἄ':
+                case 'ἅ':
+                case 'ἆ':
+                case 'ἇ':
+                case 'ὰ':
+                case 'ά':
+                case 'ᾀ':
+                case 'ᾁ':
+                case 'ᾂ':
+                case 'ᾃ':
+                case 'ᾄ':
+                case 'ᾅ':
+                case 'ᾆ':
+                case 'ᾇ':
+                case 'ᾲ':
+                case 'ᾳ':
+                case 'ᾴ':
+                case 'ᾶ':
+                case 'ᾷ':
                 case 'α':
                 case 'a':
                     button1.Text = "ἀ";
@@ -174,6 +197,14 @@ namespace WindowsFormsApplication1
                     button22.Text = "ᾶ";
                     button23.Text = "ᾷ";
                     break;
+                case 'ἐ':
+                case 'ἑ':
+                case 'ἒ':
+                case 'ἓ':
+                case 'ἔ':
+                case 'ἕ':
+                case 'ὲ':
+                case 'έ':
                 case 'ε':
                 case 'e':
                     button1.Text = "ἐ";
@@ -185,6 +216,29 @@ namespace WindowsFormsApplication1
                     button7.Text = "ὲ";
                     button8.Text = "έ";
                     break;
+                case 'ἠ':
+                case 'ἡ':
+                case 'ἢ':
+                case 'ἣ':
+                case 'ἤ':
+                case 'ἥ':
+                case 'ἦ':
+                case 'ἧ':
+                case 'ὴ':
+                case 'ή':
+                case 'ᾐ':
+                case 'ᾑ':
+                case 'ᾒ':
+                case 'ᾓ':
+                case 'ᾔ':
+                case 'ᾕ':
+                case 'ᾖ':
+                case 'ᾗ':
+                case 'ῂ':
+                case 'ῃ':
+                case 'ῄ':
+                case 'ῆ':
+                case 'ῇ':
                 case 'η':
                 case 'h':
                     button1.Text = "ἠ";
@@ -211,6 +265,17 @@ namespace WindowsFormsApplication1
                     button22.Text = "ῆ";
                     button23.Text = "ῇ";
                     break;
+                case 'ἰ':
+                case 'ἱ':
+                case 'ἲ':
+                case 'ἳ':
+                case 'ἴ':
+                case 'ἵ':
+                case 'ἶ':
+                case 'ἷ':
+                case 'ὶ':
+                case 'ί':
+                case 'ῖ':
                 case 'ι':
                 case 'i':
                     button1.Text = "ἰ";
@@ -225,6 +290,14 @@ namespace WindowsFormsApplication1
                     button10.Text = "ί";
                     button11.Text = "ῖ";
                     break;
+                case 'ὀ':
+                case 'ὁ':
+                case 'ὂ':
+                case 'ὃ':
+                case 'ὄ':
+                case 'ὅ':
+                case 'ὸ':
+                case 'ό':
                 case 'ο':
                 case 'o':
                     button1.Text = "ὀ";
@@ -236,11 +309,24 @@ namespace WindowsFormsApplication1
                     button7.Text = "ὸ";
                     button8.Text = "ό";
                     break;
+                case 'ῤ':
+                case 'ῥ':
                 case 'ρ':
                 case 'r':
                     button1.Text = "ῤ";
                     button2.Text = "ῥ";
                     break;
+                case 'ὐ':
+                case 'ὑ':
+                case 'ὒ':
+                case 'ὓ':
+                case 'ὔ':
+                case 'ὕ':
+                case 'ὖ':
+                case 'ὗ':
+                case 'ὺ':
+                case 'ύ':
+                case 'ῦ':
                 case 'υ':
                 case 'y':
                     button1.Text = "ὐ";
@@ -255,6 +341,29 @@ namespace WindowsFormsApplication1
                     button10.Text = "ύ";
                     button11.Text = "ῦ";
                     break;
+                case 'ὠ':
+                case 'ὡ':
+                case 'ὢ':
+                case 'ὣ':
+                case 'ὤ':
+                case 'ὥ':
+                case 'ὦ':
+                case 'ὧ':
+                case 'ᾠ':
+                case 'ᾡ':
+                case 'ᾢ':
+                case 'ᾣ':
+                case 'ᾤ':
+                case 'ᾥ':
+                case 'ᾦ':
+                case 'ᾧ':
+                case 'ῲ':
+                case 'ῳ':
+                case 'ῴ':
+                case 'ῶ':
+                case 'ῷ':
+                case 'ὼ':
+                case 'ώ':
                 case 'ω':
                 case 'w':
                     button1.Text = "ὠ";
