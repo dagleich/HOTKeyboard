@@ -7,3 +7,17 @@ C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastat
 C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastatur\obj\Debug\GrTastatur.csproj.GenerateResource.Cache
 C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastatur\obj\Debug\GrTastatur.exe
 C:\Users\Daniel Gleich\Documents\Visual Studio 2015\Projects\GrTastatur\GrTastatur\obj\Debug\GrTastatur.pdb
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Debug\GrTastatur.exe.config
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.pdb
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Debug\GrTastatur.exe.manifest
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Debug\GrTastatur.application
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Debug\GrTastatur.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Debug\GrTastatur.pdb
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.AboutBox1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.Properties.Resources.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.csproj.GenerateResource.Cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.exe.manifest
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.application
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.csprojResolveAssemblyReference.cache

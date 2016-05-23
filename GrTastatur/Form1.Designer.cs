@@ -60,17 +60,20 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button1, resources.GetString("button1.HelpString"));
-            this.button1.Location = new System.Drawing.Point(8, 8);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(10, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.helpProvider1.SetShowHelp(this.button1, true);
-            this.button1.Size = new System.Drawing.Size(33, 33);
+            this.button1.Size = new System.Drawing.Size(42, 42);
             this.button1.TabIndex = 28;
             this.button1.Text = "ἀ";
             this.button1.UseVisualStyleBackColor = true;
@@ -80,11 +83,11 @@
             // 
             this.copyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.copyButton, resources.GetString("copyButton.HelpString"));
-            this.copyButton.Location = new System.Drawing.Point(365, 83);
-            this.copyButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.copyButton.Location = new System.Drawing.Point(504, 103);
+            this.copyButton.Margin = new System.Windows.Forms.Padding(2);
             this.copyButton.Name = "copyButton";
             this.helpProvider1.SetShowHelp(this.copyButton, true);
-            this.copyButton.Size = new System.Drawing.Size(87, 33);
+            this.copyButton.Size = new System.Drawing.Size(108, 42);
             this.copyButton.TabIndex = 2;
             this.copyButton.Text = "Kopieren";
             this.copyButton.UseVisualStyleBackColor = true;
@@ -94,11 +97,11 @@
             // 
             this.button2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button2, resources.GetString("button2.HelpString"));
-            this.button2.Location = new System.Drawing.Point(45, 8);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(57, 10);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.helpProvider1.SetShowHelp(this.button2, true);
-            this.button2.Size = new System.Drawing.Size(33, 33);
+            this.button2.Size = new System.Drawing.Size(42, 42);
             this.button2.TabIndex = 3;
             this.button2.Text = "ἁ";
             this.button2.UseVisualStyleBackColor = true;
@@ -108,11 +111,11 @@
             // 
             this.button3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button3, resources.GetString("button3.HelpString"));
-            this.button3.Location = new System.Drawing.Point(83, 8);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(103, 10);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.helpProvider1.SetShowHelp(this.button3, true);
-            this.button3.Size = new System.Drawing.Size(33, 33);
+            this.button3.Size = new System.Drawing.Size(42, 42);
             this.button3.TabIndex = 4;
             this.button3.Text = "ἂ";
             this.button3.UseVisualStyleBackColor = true;
@@ -122,11 +125,11 @@
             // 
             this.button4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button4, resources.GetString("button4.HelpString"));
-            this.button4.Location = new System.Drawing.Point(120, 8);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(150, 10);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.helpProvider1.SetShowHelp(this.button4, true);
-            this.button4.Size = new System.Drawing.Size(33, 33);
+            this.button4.Size = new System.Drawing.Size(42, 42);
             this.button4.TabIndex = 5;
             this.button4.Text = "ἃ";
             this.button4.UseVisualStyleBackColor = true;
@@ -136,11 +139,11 @@
             // 
             this.button5.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button5, resources.GetString("button5.HelpString"));
-            this.button5.Location = new System.Drawing.Point(157, 8);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Location = new System.Drawing.Point(197, 10);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.helpProvider1.SetShowHelp(this.button5, true);
-            this.button5.Size = new System.Drawing.Size(33, 33);
+            this.button5.Size = new System.Drawing.Size(42, 42);
             this.button5.TabIndex = 6;
             this.button5.Text = "ἄ";
             this.button5.UseVisualStyleBackColor = true;
@@ -150,11 +153,11 @@
             // 
             this.button6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button6, resources.GetString("button6.HelpString"));
-            this.button6.Location = new System.Drawing.Point(195, 8);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Location = new System.Drawing.Point(243, 10);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.helpProvider1.SetShowHelp(this.button6, true);
-            this.button6.Size = new System.Drawing.Size(33, 33);
+            this.button6.Size = new System.Drawing.Size(42, 42);
             this.button6.TabIndex = 7;
             this.button6.Text = "ἅ";
             this.button6.UseVisualStyleBackColor = true;
@@ -164,11 +167,11 @@
             // 
             this.button7.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button7, resources.GetString("button7.HelpString"));
-            this.button7.Location = new System.Drawing.Point(232, 8);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Location = new System.Drawing.Point(290, 10);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.helpProvider1.SetShowHelp(this.button7, true);
-            this.button7.Size = new System.Drawing.Size(33, 33);
+            this.button7.Size = new System.Drawing.Size(42, 42);
             this.button7.TabIndex = 8;
             this.button7.Text = "ἆ";
             this.button7.UseVisualStyleBackColor = true;
@@ -178,11 +181,11 @@
             // 
             this.button8.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button8, resources.GetString("button8.HelpString"));
-            this.button8.Location = new System.Drawing.Point(269, 8);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Location = new System.Drawing.Point(337, 10);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.helpProvider1.SetShowHelp(this.button8, true);
-            this.button8.Size = new System.Drawing.Size(33, 33);
+            this.button8.Size = new System.Drawing.Size(42, 42);
             this.button8.TabIndex = 9;
             this.button8.Text = "ἇ";
             this.button8.UseVisualStyleBackColor = true;
@@ -192,11 +195,11 @@
             // 
             this.button9.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button9, resources.GetString("button9.HelpString"));
-            this.button9.Location = new System.Drawing.Point(307, 8);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Location = new System.Drawing.Point(383, 10);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.helpProvider1.SetShowHelp(this.button9, true);
-            this.button9.Size = new System.Drawing.Size(33, 33);
+            this.button9.Size = new System.Drawing.Size(42, 42);
             this.button9.TabIndex = 10;
             this.button9.Text = "ὰ";
             this.button9.UseVisualStyleBackColor = true;
@@ -206,11 +209,11 @@
             // 
             this.button10.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button10, resources.GetString("button10.HelpString"));
-            this.button10.Location = new System.Drawing.Point(344, 8);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Location = new System.Drawing.Point(430, 10);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.helpProvider1.SetShowHelp(this.button10, true);
-            this.button10.Size = new System.Drawing.Size(33, 33);
+            this.button10.Size = new System.Drawing.Size(42, 42);
             this.button10.TabIndex = 11;
             this.button10.Text = "ά";
             this.button10.UseVisualStyleBackColor = true;
@@ -220,11 +223,11 @@
             // 
             this.button11.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button11, resources.GetString("button11.HelpString"));
-            this.button11.Location = new System.Drawing.Point(381, 8);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Location = new System.Drawing.Point(477, 10);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.helpProvider1.SetShowHelp(this.button11, true);
-            this.button11.Size = new System.Drawing.Size(33, 33);
+            this.button11.Size = new System.Drawing.Size(42, 42);
             this.button11.TabIndex = 12;
             this.button11.Text = "ᾀ";
             this.button11.UseVisualStyleBackColor = true;
@@ -234,11 +237,11 @@
             // 
             this.button12.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button12, resources.GetString("button12.HelpString"));
-            this.button12.Location = new System.Drawing.Point(419, 8);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Location = new System.Drawing.Point(523, 10);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.helpProvider1.SetShowHelp(this.button12, true);
-            this.button12.Size = new System.Drawing.Size(33, 33);
+            this.button12.Size = new System.Drawing.Size(42, 42);
             this.button12.TabIndex = 13;
             this.button12.Text = "ᾁ";
             this.button12.UseVisualStyleBackColor = true;
@@ -248,11 +251,11 @@
             // 
             this.button13.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button13, resources.GetString("button13.HelpString"));
-            this.button13.Location = new System.Drawing.Point(8, 45);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Location = new System.Drawing.Point(10, 57);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.helpProvider1.SetShowHelp(this.button13, true);
-            this.button13.Size = new System.Drawing.Size(33, 33);
+            this.button13.Size = new System.Drawing.Size(42, 42);
             this.button13.TabIndex = 14;
             this.button13.Text = "ᾂ";
             this.button13.UseVisualStyleBackColor = true;
@@ -262,11 +265,11 @@
             // 
             this.button14.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button14, resources.GetString("button14.HelpString"));
-            this.button14.Location = new System.Drawing.Point(45, 45);
-            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button14.Location = new System.Drawing.Point(57, 57);
+            this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.helpProvider1.SetShowHelp(this.button14, true);
-            this.button14.Size = new System.Drawing.Size(33, 33);
+            this.button14.Size = new System.Drawing.Size(42, 42);
             this.button14.TabIndex = 15;
             this.button14.Text = "ᾃ";
             this.button14.UseVisualStyleBackColor = true;
@@ -276,11 +279,11 @@
             // 
             this.button15.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button15, resources.GetString("button15.HelpString"));
-            this.button15.Location = new System.Drawing.Point(83, 45);
-            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button15.Location = new System.Drawing.Point(103, 57);
+            this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.helpProvider1.SetShowHelp(this.button15, true);
-            this.button15.Size = new System.Drawing.Size(33, 33);
+            this.button15.Size = new System.Drawing.Size(42, 42);
             this.button15.TabIndex = 16;
             this.button15.Text = "ᾄ";
             this.button15.UseVisualStyleBackColor = true;
@@ -290,11 +293,11 @@
             // 
             this.button16.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button16, resources.GetString("button16.HelpString"));
-            this.button16.Location = new System.Drawing.Point(120, 45);
-            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button16.Location = new System.Drawing.Point(150, 57);
+            this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
             this.helpProvider1.SetShowHelp(this.button16, true);
-            this.button16.Size = new System.Drawing.Size(33, 33);
+            this.button16.Size = new System.Drawing.Size(42, 42);
             this.button16.TabIndex = 17;
             this.button16.Text = "ᾅ";
             this.button16.UseVisualStyleBackColor = true;
@@ -304,11 +307,11 @@
             // 
             this.button17.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button17, resources.GetString("button17.HelpString"));
-            this.button17.Location = new System.Drawing.Point(157, 45);
-            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button17.Location = new System.Drawing.Point(197, 57);
+            this.button17.Margin = new System.Windows.Forms.Padding(2);
             this.button17.Name = "button17";
             this.helpProvider1.SetShowHelp(this.button17, true);
-            this.button17.Size = new System.Drawing.Size(33, 33);
+            this.button17.Size = new System.Drawing.Size(42, 42);
             this.button17.TabIndex = 18;
             this.button17.Text = "ᾆ";
             this.button17.UseVisualStyleBackColor = true;
@@ -318,11 +321,11 @@
             // 
             this.button18.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button18, resources.GetString("button18.HelpString"));
-            this.button18.Location = new System.Drawing.Point(195, 45);
-            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button18.Location = new System.Drawing.Point(243, 57);
+            this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.helpProvider1.SetShowHelp(this.button18, true);
-            this.button18.Size = new System.Drawing.Size(33, 33);
+            this.button18.Size = new System.Drawing.Size(42, 42);
             this.button18.TabIndex = 19;
             this.button18.Text = "ᾆ";
             this.button18.UseVisualStyleBackColor = true;
@@ -332,11 +335,11 @@
             // 
             this.button19.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button19, resources.GetString("button19.HelpString"));
-            this.button19.Location = new System.Drawing.Point(232, 45);
-            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button19.Location = new System.Drawing.Point(290, 57);
+            this.button19.Margin = new System.Windows.Forms.Padding(2);
             this.button19.Name = "button19";
             this.helpProvider1.SetShowHelp(this.button19, true);
-            this.button19.Size = new System.Drawing.Size(33, 33);
+            this.button19.Size = new System.Drawing.Size(42, 42);
             this.button19.TabIndex = 20;
             this.button19.Text = "ᾆ";
             this.button19.UseVisualStyleBackColor = true;
@@ -346,11 +349,11 @@
             // 
             this.button20.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button20, resources.GetString("button20.HelpString"));
-            this.button20.Location = new System.Drawing.Point(269, 45);
-            this.button20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button20.Location = new System.Drawing.Point(337, 57);
+            this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
             this.helpProvider1.SetShowHelp(this.button20, true);
-            this.button20.Size = new System.Drawing.Size(33, 33);
+            this.button20.Size = new System.Drawing.Size(42, 42);
             this.button20.TabIndex = 21;
             this.button20.Text = "ᾆ";
             this.button20.UseVisualStyleBackColor = true;
@@ -360,11 +363,11 @@
             // 
             this.button21.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button21, resources.GetString("button21.HelpString"));
-            this.button21.Location = new System.Drawing.Point(307, 45);
-            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button21.Location = new System.Drawing.Point(383, 57);
+            this.button21.Margin = new System.Windows.Forms.Padding(2);
             this.button21.Name = "button21";
             this.helpProvider1.SetShowHelp(this.button21, true);
-            this.button21.Size = new System.Drawing.Size(33, 33);
+            this.button21.Size = new System.Drawing.Size(42, 42);
             this.button21.TabIndex = 22;
             this.button21.Text = "ᾆ";
             this.button21.UseVisualStyleBackColor = true;
@@ -374,11 +377,11 @@
             // 
             this.button22.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button22, resources.GetString("button22.HelpString"));
-            this.button22.Location = new System.Drawing.Point(344, 45);
-            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button22.Location = new System.Drawing.Point(430, 57);
+            this.button22.Margin = new System.Windows.Forms.Padding(2);
             this.button22.Name = "button22";
             this.helpProvider1.SetShowHelp(this.button22, true);
-            this.button22.Size = new System.Drawing.Size(33, 33);
+            this.button22.Size = new System.Drawing.Size(42, 42);
             this.button22.TabIndex = 23;
             this.button22.Text = "ᾆ";
             this.button22.UseVisualStyleBackColor = true;
@@ -388,11 +391,11 @@
             // 
             this.button23.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button23, resources.GetString("button23.HelpString"));
-            this.button23.Location = new System.Drawing.Point(381, 45);
-            this.button23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button23.Location = new System.Drawing.Point(477, 57);
+            this.button23.Margin = new System.Windows.Forms.Padding(2);
             this.button23.Name = "button23";
             this.helpProvider1.SetShowHelp(this.button23, true);
-            this.button23.Size = new System.Drawing.Size(33, 33);
+            this.button23.Size = new System.Drawing.Size(42, 42);
             this.button23.TabIndex = 24;
             this.button23.Text = "ᾆ";
             this.button23.UseVisualStyleBackColor = true;
@@ -409,11 +412,11 @@
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.button24, resources.GetString("button24.HelpString"));
-            this.button24.Location = new System.Drawing.Point(419, 45);
-            this.button24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button24.Location = new System.Drawing.Point(570, 57);
+            this.button24.Margin = new System.Windows.Forms.Padding(2);
             this.button24.Name = "button24";
             this.helpProvider1.SetShowHelp(this.button24, true);
-            this.button24.Size = new System.Drawing.Size(33, 33);
+            this.button24.Size = new System.Drawing.Size(42, 42);
             this.button24.TabIndex = 25;
             this.button24.TabStop = false;
             this.button24.UseVisualStyleBackColor = false;
@@ -423,11 +426,11 @@
             // 
             this.copySuggestionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.copySuggestionBtn, resources.GetString("copySuggestionBtn.HelpString"));
-            this.copySuggestionBtn.Location = new System.Drawing.Point(365, 119);
-            this.copySuggestionBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.copySuggestionBtn.Location = new System.Drawing.Point(504, 147);
+            this.copySuggestionBtn.Margin = new System.Windows.Forms.Padding(2);
             this.copySuggestionBtn.Name = "copySuggestionBtn";
             this.helpProvider1.SetShowHelp(this.copySuggestionBtn, true);
-            this.copySuggestionBtn.Size = new System.Drawing.Size(87, 33);
+            this.copySuggestionBtn.Size = new System.Drawing.Size(108, 42);
             this.copySuggestionBtn.TabIndex = 29;
             this.copySuggestionBtn.Text = "Kopieren";
             this.copySuggestionBtn.UseVisualStyleBackColor = true;
@@ -444,10 +447,10 @@
             this.clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearBtn.ForeColor = System.Drawing.Color.White;
-            this.clearBtn.Location = new System.Drawing.Point(332, 87);
-            this.clearBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.clearBtn.Location = new System.Drawing.Point(456, 4);
+            this.clearBtn.Margin = new System.Windows.Forms.Padding(2);
             this.clearBtn.Name = "clearBtn";
-            this.clearBtn.Size = new System.Drawing.Size(24, 24);
+            this.clearBtn.Size = new System.Drawing.Size(30, 30);
             this.clearBtn.TabIndex = 26;
             this.clearBtn.UseVisualStyleBackColor = false;
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
@@ -456,44 +459,76 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(8, 83);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Controls.Add(this.clearBtn);
+            this.panel1.Location = new System.Drawing.Point(10, 103);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(351, 33);
+            this.panel1.Size = new System.Drawing.Size(490, 40);
             this.panel1.TabIndex = 27;
             // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(10, 85);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(12, 107);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(322, 28);
+            this.textBox1.Size = new System.Drawing.Size(451, 35);
             this.textBox1.TabIndex = 0;
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(8, 119);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Location = new System.Drawing.Point(10, 148);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(352, 35);
+            this.comboBox1.Size = new System.Drawing.Size(462, 42);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.SelectionChangeCommitted += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             this.comboBox1.Enter += new System.EventHandler(this.comboBox1_HitEnter);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(480, 162);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.TabIndex = 30;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.checkBox2.FlatAppearance.BorderSize = 0;
+            this.checkBox2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox2.Image = global::GrTastatur.Properties.Resources.PushpinUnpin_32x;
+            this.checkBox2.Location = new System.Drawing.Point(570, 12);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(38, 38);
+            this.checkBox2.TabIndex = 31;
+            this.checkBox2.UseVisualStyleBackColor = false;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(462, 159);
+            this.ClientSize = new System.Drawing.Size(623, 198);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.copySuggestionBtn);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
@@ -524,12 +559,13 @@
             this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.helpProvider1.SetShowHelp(this, true);
             this.Text = "GrTastatur";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -568,6 +604,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button copySuggestionBtn;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 

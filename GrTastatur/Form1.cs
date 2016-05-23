@@ -120,6 +120,11 @@ namespace WindowsFormsApplication1
             
 
             comboBox1.Items.Clear();
+            if (checkBox1.Checked) loadComboBox();
+        }
+
+        private void loadComboBox ()
+        {
             int i = 0;
             //Change the price on the books.
             foreach (XmlNode word in nodeList)
@@ -592,6 +597,36 @@ namespace WindowsFormsApplication1
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             textBox1.Text = comboBox1.Text;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                comboBox1.Enabled = true;
+                comboBox1.Items.Clear();
+                if (checkBox1.Checked) loadComboBox();
+            }
+            else
+            {
+                comboBox1.Enabled = false;
+                comboBox1.Text = "";
+                comboBox1.Items.Clear();
+            }
+        }
+
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+             if (checkBox2.Checked)
+             {
+                 this.TopMost = true;
+                 checkBox2.Image = GrTastatur.Properties.Resources.PinnedItem_32x;
+             } else
+             {
+                 this.TopMost = false;
+                 checkBox2.Image = GrTastatur.Properties.Resources.PushpinUnpin_32x;
+             }
         }
     }
 }
