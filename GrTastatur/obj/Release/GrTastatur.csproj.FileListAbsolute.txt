@@ -21,4 +21,4 @@ C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Rele
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\bin\Release\GrTastatur.application
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Release\GrTastatur.exe.manifest
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Release\GrTastatur.application
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Release\GrTastatur.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Release\GrTastatur.Resources.Resource1.resources

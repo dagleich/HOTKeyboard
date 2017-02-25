@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GrTastatur.exe" size="115712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GrTastatur.exe" size="3261440">
       <assemblyIdentity name="GrTastatur" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+Zg8eBaM0rLUwxRUjjrUSJ6JgrKvLBvZl8mNAr4vJOk=</dsig:DigestValue>
+        <dsig:DigestValue>VW7Zub6BznO0A5r7bAXE//1jFY6jpsLtgJVmxdAz6oM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

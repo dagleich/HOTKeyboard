@@ -20,4 +20,4 @@ C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debu
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.csproj.GenerateResource.Cache
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.exe.manifest
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.application
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GrTastatur\GrTastatur\obj\Debug\GrTastatur.Resources.Resource1.resources

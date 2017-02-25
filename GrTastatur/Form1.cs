@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using GrTastatur;
@@ -38,7 +39,10 @@ namespace WindowsFormsApplication1
             /*var _point = new System.Drawing.Point(Cursor.Position.X, Cursor.Position.Y);
             Top = _point.Y;
             Left = _point.X;*/
-            doc.Load(@"Wordlist.xml");
+
+            System.Reflection.Assembly a = System.Reflection.Assembly.GetExecutingAssembly();
+            doc.Load(a.GetManifestResourceStream("GrTastatur.Resources.Wordlist.xml"));
+            //doc.Load(@"Wordlist.xml");
             root = doc.DocumentElement;
             nodeList = root.SelectNodes("descendant::word");
         }
@@ -90,6 +94,36 @@ namespace WindowsFormsApplication1
             switch (e.KeyChar)
             {
                 //case (Char)Keys.Escape: textBox1.Clear(); break;
+                /*
+                --- Grossbuchstaben ---
+                */
+                case 'A': addTextToTextBox("Α", e); changeButtonTexts(e.KeyChar); break;
+                case 'B': addTextToTextBox("Β", e); break;
+                case 'G': addTextToTextBox("Γ", e); break;
+                case 'D': addTextToTextBox("Δ", e); break;
+                case 'E': addTextToTextBox("Ε", e); changeButtonTexts(e.KeyChar); break;
+                case 'Z': addTextToTextBox("Ζ", e); break;
+                case 'H': addTextToTextBox("Η", e); changeButtonTexts(e.KeyChar); break;
+                case 'Q': addTextToTextBox("Θ", e); break;
+                case 'I': addTextToTextBox("Ι", e); changeButtonTexts(e.KeyChar); break;
+                case 'K': addTextToTextBox("Κ", e); break;
+                case 'L': addTextToTextBox("Λ", e); break;
+                case 'M': addTextToTextBox("Μ", e); break;
+                case 'N': addTextToTextBox("Ν", e); break;
+                case 'J': addTextToTextBox("Ξ", e); break;
+                case 'O': addTextToTextBox("Ο", e); changeButtonTexts(e.KeyChar); break;
+                case 'P': addTextToTextBox("Π", e); break;
+                case 'R': addTextToTextBox("Ρ", e); changeButtonTexts(e.KeyChar); break;
+                case 'S': addTextToTextBox("Σ", e); break;
+                case 'T': addTextToTextBox("Τ", e); break;
+                case 'Y': addTextToTextBox("Υ", e); changeButtonTexts(e.KeyChar); break;
+                case 'F': addTextToTextBox("Φ", e); break;
+                case 'X': addTextToTextBox("Χ", e); break;
+                case 'C': addTextToTextBox("Ψ", e); break;
+                case 'W': addTextToTextBox("Ω", e); changeButtonTexts(e.KeyChar); break;
+                /*
+                --- Kleinbuchstaben ---
+                */
                 case 'a': addTextToTextBox("α", e); changeButtonTexts(e.KeyChar); break;
                 case 'b': addTextToTextBox("β", e); break;
                 case 'g': addTextToTextBox("γ", e); break;
@@ -153,6 +187,108 @@ namespace WindowsFormsApplication1
             clearAllButtons();
             switch (rootChar)
             {
+                case 'A':
+                    button1.Text = "Ἀ";
+                    button2.Text = "Ἁ";
+                    button3.Text = "Ἂ";
+                    button4.Text = "Ἃ";
+                    button5.Text = "Ἄ";
+                    button6.Text = "Ἅ";
+                    button7.Text = "Ἆ";
+                    button8.Text = "Ἇ";
+                    button9.Text = "ᾈ";
+                    button10.Text = "ᾉ";
+                    button11.Text = "ᾊ";
+                    button12.Text = "ᾋ";
+                    button13.Text = "ᾌ";
+                    button14.Text = "ᾍ";
+                    button15.Text = "ᾎ";
+                    button16.Text = "ᾏ";
+                    break;
+                case 'E':
+                    button1.Text = "Ἐ";
+                    button2.Text = "Ἑ";
+                    button3.Text = "Ἒ";
+                    button4.Text = "Ἓ";
+                    button5.Text = "Ἔ";
+                    button6.Text = "Ἕ";
+                    button7.Text = "Ὲ";
+                    button8.Text = "Έ";
+                    break;
+                case 'H':
+                    button1.Text = "Ἠ";
+                    button2.Text = "Ἡ";
+                    button3.Text = "Ἢ";
+                    button4.Text = "Ἣ";
+                    button5.Text = "Ἤ";
+                    button6.Text = "Ἥ";
+                    button7.Text = "Ἦ";
+                    button8.Text = "Ἧ";
+                    button9.Text = "ᾘ";
+                    button10.Text = "ᾙ";
+                    button11.Text = "ᾚ";
+                    button12.Text = "ᾛ";
+                    button13.Text = "ᾜ";
+                    button14.Text = "ᾝ";
+                    button15.Text = "ᾞ";
+                    button16.Text = "ᾟ";
+                    break;
+                case 'I':
+                    button1.Text = "Ἰ";
+                    button2.Text = "Ἱ";
+                    button3.Text = "Ἲ";
+                    button4.Text = "Ἳ";
+                    button5.Text = "Ἴ";
+                    button6.Text = "Ἵ";
+                    button7.Text = "Ἶ";
+                    button8.Text = "Ἷ";
+                    button9.Text = "Ὶ";
+                    button10.Text = "Ί";
+                    break;
+                case 'O':
+                    button1.Text = "Ὀ";
+                    button2.Text = "Ὁ";
+                    button3.Text = "Ὂ";
+                    button4.Text = "Ὃ";
+                    button5.Text = "Ὄ";
+                    button6.Text = "Ὅ";
+                    button7.Text = "Ὸ";
+                    button8.Text = "Ό";
+                    break;
+                case 'R':
+                    button1.Text = "Ῥ";
+                    break;
+                case 'Y':
+                    button1.Text = "Ὑ";
+                    button2.Text = "Ὓ";
+                    button3.Text = "Ὕ";
+                    button4.Text = "Ὗ";
+                    button5.Text = "Ῠ";
+                    button6.Text = "Ῡ";
+                    button7.Text = "Ὺ";
+                    button8.Text = "Ύ";
+                    break;
+                case 'W':
+                    button1.Text = "Ὠ";
+                    button2.Text = "Ὡ";
+                    button3.Text = "Ὢ";
+                    button4.Text = "Ὣ";
+                    button5.Text = "Ὤ";
+                    button6.Text = "Ὥ";
+                    button7.Text = "Ὦ";
+                    button8.Text = "Ὧ";
+                    button9.Text = "ᾨ";
+                    button10.Text = "ᾩ";
+                    button11.Text = "ᾪ";
+                    button12.Text = "ᾫ";
+                    button13.Text = "ᾬ";
+                    button14.Text = "ᾭ";
+                    button15.Text = "ᾮ";
+                    button16.Text = "ᾯ";
+                    button17.Text = "Ὼ";
+                    button18.Text = "Ώ";
+                    button19.Text = "ῼ";
+                    break;
                 case 'ἀ':
                 case 'ἁ':
                 case 'ἂ':
@@ -428,123 +564,123 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button1.Text);
+            if (button1.Text.Length > 0) buttonToTextBox(button1.Text);
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button2.Text);
+            if (button2.Text.Length > 0) buttonToTextBox(button2.Text);
         }
 
 
         private void button3_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button3.Text);
+            if (button3.Text.Length > 0) buttonToTextBox(button3.Text);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button4.Text);
+            if (button4.Text.Length > 0) buttonToTextBox(button4.Text);
         }
 
 
         private void button5_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button5.Text);
+            if (button5.Text.Length > 0) buttonToTextBox(button5.Text);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button6.Text);
+            if (button6.Text.Length > 0) buttonToTextBox(button6.Text);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button7.Text);
+            if (button7.Text.Length > 0) buttonToTextBox(button7.Text);
         }
 
 
         private void button8_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button8.Text);
+            if (button8.Text.Length > 0) buttonToTextBox(button8.Text);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button9.Text);
+            if (button9.Text.Length > 0) buttonToTextBox(button9.Text);
         }
 
 
         private void button10_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button10.Text);
+            if (button10.Text.Length > 0) buttonToTextBox(button10.Text);
         }
 
 
         private void button11_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button11.Text);
+            if (button11.Text.Length > 0) buttonToTextBox(button11.Text);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button12.Text);
+            if (button12.Text.Length > 0) buttonToTextBox(button12.Text);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button13.Text);
+            if (button13.Text.Length > 0) buttonToTextBox(button13.Text);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button14.Text);
+            if (button14.Text.Length > 0) buttonToTextBox(button14.Text);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button15.Text);
+            if (button15.Text.Length > 0) buttonToTextBox(button15.Text);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button16.Text);
+            if (button16.Text.Length > 0) buttonToTextBox(button16.Text);
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button17.Text);
+            if (button17.Text.Length > 0) buttonToTextBox(button17.Text);
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button18.Text);
+            if (button18.Text.Length > 0) buttonToTextBox(button18.Text);
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button19.Text);
+            if (button19.Text.Length > 0) buttonToTextBox(button19.Text);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button20.Text);
+            if (button20.Text.Length > 0) buttonToTextBox(button20.Text);
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button21.Text);
+            if (button21.Text.Length > 0) buttonToTextBox(button21.Text);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button22.Text);
+            if (button22.Text.Length > 0) buttonToTextBox(button22.Text);
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            buttonToTextBox(button23.Text);
+            if (button23.Text.Length > 0) buttonToTextBox(button23.Text);
         }
 
         private void button24_Click(object sender, EventArgs e)

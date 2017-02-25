@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GrTastatur.exe" size="117248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GrTastatur.exe" size="120832">
       <assemblyIdentity name="GrTastatur" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>01R7sKYADboPVxjbV+V+GH9cXW2wLb/OmlhpebXZbgE=</dsig:DigestValue>
+        <dsig:DigestValue>7Y/+RLAmAasQdBgoEIYsqb0j/bZ+cnSZoomF7HzNzWk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -79,6 +79,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>VUnXkqpXi5CkRxH2fbpcRSgQIo0gsTNGdw2RDedNNZI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Wordlist.xml" size="3142055" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8qFj6kkGKDcPjbNW8YV/5jce7maMYaXXE78gs0EhRqo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Wordlist.xml" size="3142055" writeableType="applicationData">
