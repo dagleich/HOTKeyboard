@@ -7,7 +7,7 @@ Here is how it looks:
 
 The following Greek letters are mapped with the Latin letters underneath:
 | α | β | γ | δ | ε | ζ | η | θ | ι | κ |
-| - |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:| -:|
+| --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| ---:|
 | a | b | g | d | e | z | h | q | i | k |
 
 λ	μ	ν	ξ	ο	π	ρ	σ	ς	τ
