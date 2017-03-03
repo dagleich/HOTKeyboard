@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
-[assembly: AssemblyTitle("GrTastatur")]
-[assembly: AssemblyDescription("Die GrTastatur konvertiert deutsche in griechische Buchstaben.")]
+[assembly: AssemblyTitle("GNTKeyboard")]
+[assembly: AssemblyDescription("GNTKeyboard converts Latin letters into Greek letters and suggests word completion from the New Testament vocabulary.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Daniel A. Gleich")]
-[assembly: AssemblyProduct("GrTastatur")]
-[assembly: AssemblyCopyright("Copyright ©  2016 by Daniel A. Gleich")]
+[assembly: AssemblyProduct("GNTKeyboard")]
+[assembly: AssemblyCopyright("Copyright © 2017 by Daniel A. Gleich")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

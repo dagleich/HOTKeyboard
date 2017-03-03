@@ -7,8 +7,8 @@
     <ProjectGuid>{4EABECD8-EABD-4D96-84B9-00822F1BDE01}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GrTastatur</RootNamespace>
-    <AssemblyName>GrTastatur</AssemblyName>
+    <RootNamespace>GNTKeyboard</RootNamespace>
+    <AssemblyName>GNTKeyboard</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -136,7 +136,6 @@
     <None Include="app.manifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="GrTastatur_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,8 +153,6 @@
     <Content Include="DGIcon.ico" />
     <Content Include="GrTastatur_Icon.ico" />
     <EmbeddedResource Include="Resources\Wordlist.xml" />
-    <Content Include="Wordlist.xml" />
-    <Content Include="Wordlist_Schema.xml" />
     <None Include="Resources\PinnedItem_32x.png" />
     <None Include="Resources\PushpinUnpin_32x.png" />
   </ItemGroup>

@@ -89,7 +89,7 @@
             this.helpProvider1.SetShowHelp(this.copyButton, true);
             this.copyButton.Size = new System.Drawing.Size(108, 42);
             this.copyButton.TabIndex = 2;
-            this.copyButton.Text = "Kopieren";
+            this.copyButton.Text = "Copy";
             this.copyButton.UseVisualStyleBackColor = true;
             this.copyButton.Click += new System.EventHandler(this.copyButton_Click);
             // 
@@ -432,7 +432,7 @@
             this.helpProvider1.SetShowHelp(this.copySuggestionBtn, true);
             this.copySuggestionBtn.Size = new System.Drawing.Size(108, 42);
             this.copySuggestionBtn.TabIndex = 29;
-            this.copySuggestionBtn.Text = "Kopieren";
+            this.copySuggestionBtn.Text = "Copy";
             this.copySuggestionBtn.UseVisualStyleBackColor = true;
             this.copySuggestionBtn.Click += new System.EventHandler(this.copySuggestionBtn_Click);
             // 
@@ -510,7 +510,7 @@
             this.checkBox2.FlatAppearance.BorderSize = 0;
             this.checkBox2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox2.Image = global::GrTastatur.Properties.Resources.PushpinUnpin_32x;
+            this.checkBox2.Image = global::GNTKeyboard.Properties.Resources.PushpinUnpin_32x;
             this.checkBox2.Location = new System.Drawing.Point(570, 12);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(38, 38);
@@ -563,7 +563,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.helpProvider1.SetShowHelp(this, true);
-            this.Text = "GrTastatur";
+            this.Text = "GNTKeyboard";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GrTastatur
+namespace GNTKeyboard
 {
     partial class AboutBox1 : Form
     {
@@ -190,7 +190,7 @@ namespace GrTastatur
 "                                                                   </tr>" +
 "                                                                   </tbody>" +
 "                                                                   </table>" +
-"                                                                   <p> Wenn man<strong> α, ε, η, ι, ο, ρ, υ </strong> oder <strong> ω </strong> eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent / Asper / Lenis / Jota / Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. <strong> Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</strong></p></body></html>";
+"                                                                   <p> Wenn man<strong> α, ε, η, ι, ο, ρ, υ </strong> oder <strong> ω </strong> eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent / Asper / Lenis / Jota / Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt.</p></body></html>";
             webBrowser1.Show();
         }
 

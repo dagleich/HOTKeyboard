@@ -8,7 +8,7 @@ using System.Text;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using GrTastatur;
+using GNTKeyboard;
 using System.Xml;
 
 namespace WindowsFormsApplication1
@@ -41,7 +41,7 @@ namespace WindowsFormsApplication1
             Left = _point.X;*/
 
             System.Reflection.Assembly a = System.Reflection.Assembly.GetExecutingAssembly();
-            doc.Load(a.GetManifestResourceStream("GrTastatur.Resources.Wordlist.xml"));
+            doc.Load(a.GetManifestResourceStream("GNTKeyboard.Resources.Wordlist.xml"));
             //doc.Load(@"Wordlist.xml");
             root = doc.DocumentElement;
             nodeList = root.SelectNodes("descendant::word");
@@ -757,11 +757,11 @@ namespace WindowsFormsApplication1
              if (checkBox2.Checked)
              {
                  this.TopMost = true;
-                 checkBox2.Image = GrTastatur.Properties.Resources.PinnedItem_32x;
+                 checkBox2.Image = GNTKeyboard.Properties.Resources.PinnedItem_32x;
              } else
              {
                  this.TopMost = false;
-                 checkBox2.Image = GrTastatur.Properties.Resources.PushpinUnpin_32x;
+                 checkBox2.Image = GNTKeyboard.Properties.Resources.PushpinUnpin_32x;
              }
         }
     }
