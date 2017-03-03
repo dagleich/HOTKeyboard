@@ -2,6 +2,7 @@
 Type New Testament Greek with automatic word completion.
 
 Here is how it looks:
+
 ![alt tag](https://github.com/dagleich/GNTKeyboard/blob/master/GNTKeyboard.png)
 
 The following Greek letters are mapped with the Latin letters underneath:
