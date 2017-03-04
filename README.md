@@ -1,6 +1,8 @@
 # GNTKeyboard
 Type New Testament Greek with automatic word completion.
 
+Download [Windows App](https://rink.hockeyapp.net/apps/6e6ef54d44484b5fbcb10a36e8154271).
+
 Here is how it looks:
 
 ![alt tag](https://github.com/dagleich/GNTKeyboard/blob/master/GNTKeyboard.png)
