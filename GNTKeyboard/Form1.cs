@@ -75,15 +75,11 @@ namespace WindowsFormsApplication1
                         changeButtonTexts(textBox1.Text[textBox1.SelectionStart - 1]);
                         e.Handled = true;
                     }
-                    //textBox1.Text = "Geht!";
-                    //changeButtonTexts('η');
                     break;
                 case Keys.Right:
                     if (textBox1.SelectionStart > 0)
                     {
-                        //textBox1.SelectionStart = textBox1.SelectionStart - 1;
                         changeButtonTexts(textBox1.Text[textBox1.SelectionStart]);
-                        //e.Handled = true;
                     }
                     break;
             }
