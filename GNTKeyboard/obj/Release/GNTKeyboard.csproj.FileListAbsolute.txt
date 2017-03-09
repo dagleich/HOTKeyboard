@@ -1,4 +1,5 @@
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\bin\Release\GNTKeyboard.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.csprojResolveAssemblyReference.cache
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.AboutBox1.resources
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\WindowsFormsApplication1.Form1.resources
 C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.Properties.Resources.resources
