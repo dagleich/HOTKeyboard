@@ -21,6 +21,7 @@ namespace WindowsFormsApplication1
         public XmlDocument doc = new XmlDocument();
         public XmlNodeList nodeList;
         public XmlNode root;
+        public List<string> grWords = new List<string>();
 
         public Form1()
         {
@@ -45,6 +46,12 @@ namespace WindowsFormsApplication1
             //doc.Load(@"Wordlist.xml");
             root = doc.DocumentElement;
             nodeList = root.SelectNodes("descendant::word");
+            
+            foreach (XmlNode word in nodeList)
+            {
+                grWords.Add(word.FirstChild.NextSibling.InnerText);
+            }
+
         }
 
 
@@ -156,12 +163,11 @@ namespace WindowsFormsApplication1
         private void loadComboBox ()
         {
             int i = 0;
-            //Change the price on the books.
-            foreach (XmlNode word in nodeList)
+            foreach (string grWord in grWords)
             {
-                if (word.FirstChild.InnerText.IndexOf(textBox1.Text) > -1)
+                if (grWord.IndexOf(textBox1.Text) > -1)
                 {
-                    comboBox1.Items.Add(word.FirstChild.NextSibling.InnerText);
+                    comboBox1.Items.Add(grWord);
                     i++;
                     if (i == 10) break;
                 }
