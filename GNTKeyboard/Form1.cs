@@ -21,7 +21,8 @@ namespace WindowsFormsApplication1
         public XmlDocument doc = new XmlDocument();
         public XmlNodeList nodeList;
         public XmlNode root;
-        public List<string> grWords = new List<string>();
+        public Dictionary<string, string> grWords = new Dictionary<string, string>();
+        //public List<string> grWords = new List<string>();
 
         public Form1()
         {
@@ -46,10 +47,17 @@ namespace WindowsFormsApplication1
             //doc.Load(@"Wordlist.xml");
             root = doc.DocumentElement;
             nodeList = root.SelectNodes("descendant::word");
+            int i = 1;
             
             foreach (XmlNode word in nodeList)
             {
-                grWords.Add(word.FirstChild.NextSibling.InnerText);
+                if (grWords.ContainsKey(word.FirstChild.InnerText))
+                {
+                    while (grWords.ContainsKey(word.FirstChild.InnerText + i.ToString())) i++;
+                    grWords.Add(word.FirstChild.InnerText + i.ToString(), word.FirstChild.NextSibling.InnerText);
+                }
+                else grWords.Add(word.FirstChild.InnerText, word.FirstChild.NextSibling.InnerText);
+                i = 1;
             }
 
         }
@@ -163,11 +171,11 @@ namespace WindowsFormsApplication1
         private void loadComboBox ()
         {
             int i = 0;
-            foreach (string grWord in grWords)
+            foreach (KeyValuePair<string, string> grWord in grWords)
             {
-                if (grWord.IndexOf(textBox1.Text) > -1)
+                if ((grWord.Key.IndexOf(textBox1.Text) > -1) || (grWord.Value.IndexOf(textBox1.Text) > -1))
                 {
-                    comboBox1.Items.Add(grWord);
+                    comboBox1.Items.Add(grWord.Value);
                     i++;
                     if (i == 10) break;
                 }
