@@ -113,7 +113,7 @@ namespace HOTKeyboard
             {
                 webBrowser1.Document.Write(string.Empty);
             }
-            webBrowser1.DocumentText = "<html><head><title>GrTastur - Hilfe</title></head><body><p>Das Programm funktioniert so, dass man in dem Textfeld deutsche Buchstaben eintippt, welche dann direkt in hebräische Buchstaben umgewandelt werden. Dabei entsprechen folgende Buchstaben einander:</p>" +
+            webBrowser1.DocumentText = "<html><head><title>HOTKeyboard - Hilfe</title></head><body><p>Das Programm funktioniert so, dass man in dem Textfeld deutsche Buchstaben eintippt, welche dann direkt in hebräische Buchstaben umgewandelt werden. Dabei entsprechen folgende Buchstaben einander:</p>" +
 "<table style='width: 600px;'>" +
 "<tbody>" +
 " <tr style='height: 20px; background-color: #cccccc; font-family: \'Times New Roman\'; font-size: 18pt;'>" +
