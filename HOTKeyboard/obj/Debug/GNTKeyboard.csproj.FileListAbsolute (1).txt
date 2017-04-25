@@ -1,0 +1,9 @@
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\bin\Debug\GNTKeyboard.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\bin\Debug\GNTKeyboard.pdb
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Debug\GNTKeyboard.AboutBox1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Debug\GNTKeyboard.Properties.Resources.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Debug\GNTKeyboard.Resources.Resource1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Debug\GNTKeyboard.csproj.GenerateResource.Cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Debug\GNTKeyboard.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Debug\GNTKeyboard.pdb

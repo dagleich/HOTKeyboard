@@ -1,9 +1,0 @@
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\bin\Release\GNTKeyboard.exe
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.AboutBox1.resources
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\WindowsFormsApplication1.Form1.resources
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.Properties.Resources.resources
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.Resources.Resource1.resources
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.csproj.GenerateResource.Cache
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\obj\Release\GNTKeyboard.exe
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\bin\Release\GNTKeyboard.exe.CodeAnalysisLog.xml
-C:\Users\Daniel Gleich\Google Drive\Software\Code\GNTKeyboard\GNTKeyboard\bin\Release\GNTKeyboard.exe.lastcodeanalysissucceeded

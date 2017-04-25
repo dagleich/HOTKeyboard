@@ -1,0 +1,10 @@
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\bin\Debug\HOTKeyboard.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\bin\Debug\HOTKeyboard.pdb
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.AboutBox1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.Properties.Resources.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.Resources.Resource1.resources
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.csproj.GenerateResource.Cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.exe
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.pdb
