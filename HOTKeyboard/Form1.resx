@@ -159,9 +159,6 @@
   <data name="button12.HelpString" xml:space="preserve">
     <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
   </data>
-  <data name="button13.HelpString" xml:space="preserve">
-    <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
-  </data>
   <data name="button14.HelpString" xml:space="preserve">
     <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
   </data>
@@ -192,8 +189,11 @@
   <data name="button23.HelpString" xml:space="preserve">
     <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
   </data>
+  <data name="button24.HelpString" xml:space="preserve">
+    <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button24.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="helbButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAuFJREFUaEPt
         2MmqFDEYxfHrjCKIKC4cNyriTnBciA8hgi50I6L4Ag4P4LRVRFCf4ILiBD6BG0FEfAFFQZzFWQT9H7gX
@@ -211,7 +211,7 @@
         YdanT59BmZr6D51TUrOVdMEtAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button24.HelpString" xml:space="preserve">
+  <data name="helbButton.HelpString" xml:space="preserve">
     <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
   </data>
   <data name="copySuggestionBtn.HelpString" xml:space="preserve">
@@ -226,6 +226,15 @@
         5QDowpI8abbEGnmilVgzALrwjzwpGQBdKJEnu5eokSdaiXQAdMFCniwNgC5YypNNS+DSab5RjTzJlbhJ
         zMFlEy6dLOVJ+uvi/sn1ds7zahEn7yYfBEEQBIEtwzACvAAMfdJsLlwAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="button25.HelpString" xml:space="preserve">
+    <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
+  </data>
+  <data name="button26.HelpString" xml:space="preserve">
+    <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
+  </data>
+  <data name="button13.HelpString" xml:space="preserve">
+    <value>Tippe in das Textfeld deutsche Buchstaben ein. Diese werden dann direkt in griechische Buchstaben umgewandelt. Wenn man a, e, h, i, o, r, y oder w eintippt, passen sich die Buttons im oberen Bereich an, sodass man den eingetippten Buchstaben mit passendem Akzent/Asper/Lenis/Jota/Zirkumflex wählen kann. Klickt man auf einen solchen Button, wird der eingetippte Buchstabe ohne Zeichen durch den entsprechenden Buchstaben mit Zeichen ersetzt. Derzeit funktioniert das Programm nur mit Kleinbuchstaben.</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
