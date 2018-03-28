@@ -17,7 +17,6 @@ namespace WindowsFormsApplication1
 
     public partial class Form1 : Form
     {
-
         public XmlDocument doc = new XmlDocument();
         public XmlNodeList nodeList;
         public XmlNode root;
