@@ -56,15 +56,15 @@
             this.helbButton = new System.Windows.Forms.Button();
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.copySuggestionBtn = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.clearBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -260,7 +260,7 @@
             this.button14.Size = new System.Drawing.Size(42, 42);
             this.button14.TabIndex = 14;
             this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button13_Click);
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -273,7 +273,7 @@
             this.button15.Size = new System.Drawing.Size(42, 42);
             this.button15.TabIndex = 15;
             this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button14_Click);
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -286,7 +286,7 @@
             this.button16.Size = new System.Drawing.Size(42, 42);
             this.button16.TabIndex = 16;
             this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button15_Click);
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -299,7 +299,7 @@
             this.button17.Size = new System.Drawing.Size(42, 42);
             this.button17.TabIndex = 17;
             this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button16_Click);
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -312,7 +312,7 @@
             this.button18.Size = new System.Drawing.Size(42, 42);
             this.button18.TabIndex = 18;
             this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button17_Click);
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -325,7 +325,7 @@
             this.button19.Size = new System.Drawing.Size(42, 42);
             this.button19.TabIndex = 19;
             this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.button18_Click);
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -338,7 +338,7 @@
             this.button20.Size = new System.Drawing.Size(42, 42);
             this.button20.TabIndex = 20;
             this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button19_Click);
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
@@ -351,7 +351,7 @@
             this.button21.Size = new System.Drawing.Size(42, 42);
             this.button21.TabIndex = 21;
             this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button20_Click);
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
@@ -364,7 +364,7 @@
             this.button22.Size = new System.Drawing.Size(42, 42);
             this.button22.TabIndex = 22;
             this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.button21_Click);
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // button23
             // 
@@ -377,7 +377,7 @@
             this.button23.Size = new System.Drawing.Size(42, 42);
             this.button23.TabIndex = 23;
             this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.button22_Click);
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -390,7 +390,7 @@
             this.button24.Size = new System.Drawing.Size(42, 42);
             this.button24.TabIndex = 24;
             this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.button23_Click);
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // helbButton
             // 
@@ -411,7 +411,7 @@
             this.helbButton.TabIndex = 25;
             this.helbButton.TabStop = false;
             this.helbButton.UseVisualStyleBackColor = false;
-            this.helbButton.Click += new System.EventHandler(this.button24_Click);
+            this.helbButton.Click += new System.EventHandler(this.helpBtn_Click);
             // 
             // copySuggestionBtn
             // 
@@ -426,6 +426,45 @@
             this.copySuggestionBtn.Text = "Copy";
             this.copySuggestionBtn.UseVisualStyleBackColor = true;
             this.copySuggestionBtn.Click += new System.EventHandler(this.copySuggestionBtn_Click);
+            // 
+            // button25
+            // 
+            this.button25.Font = new System.Drawing.Font("Ezra SIL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpProvider1.SetHelpString(this.button25, resources.GetString("button25.HelpString"));
+            this.button25.Location = new System.Drawing.Point(523, 57);
+            this.button25.Margin = new System.Windows.Forms.Padding(2);
+            this.button25.Name = "button25";
+            this.helpProvider1.SetShowHelp(this.button25, true);
+            this.button25.Size = new System.Drawing.Size(42, 42);
+            this.button25.TabIndex = 32;
+            this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
+            // 
+            // button26
+            // 
+            this.button26.Font = new System.Drawing.Font("Ezra SIL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpProvider1.SetHelpString(this.button26, resources.GetString("button26.HelpString"));
+            this.button26.Location = new System.Drawing.Point(569, 57);
+            this.button26.Margin = new System.Windows.Forms.Padding(2);
+            this.button26.Name = "button26";
+            this.helpProvider1.SetShowHelp(this.button26, true);
+            this.button26.Size = new System.Drawing.Size(42, 42);
+            this.button26.TabIndex = 34;
+            this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Ezra SIL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpProvider1.SetHelpString(this.button13, resources.GetString("button13.HelpString"));
+            this.button13.Location = new System.Drawing.Point(569, 10);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
+            this.button13.Name = "button13";
+            this.helpProvider1.SetShowHelp(this.button13, true);
+            this.button13.Size = new System.Drawing.Size(42, 42);
+            this.button13.TabIndex = 33;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // clearBtn
             // 
@@ -471,6 +510,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Enabled = false;
             this.comboBox1.Font = new System.Drawing.Font("Ezra SIL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(10, 162);
@@ -485,8 +525,6 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Location = new System.Drawing.Point(480, 162);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
@@ -511,42 +549,6 @@
             this.checkBox2.TabIndex = 31;
             this.checkBox2.UseVisualStyleBackColor = false;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
-            // 
-            // button25
-            // 
-            this.button25.Font = new System.Drawing.Font("Ezra SIL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helpProvider1.SetHelpString(this.button25, resources.GetString("button25.HelpString"));
-            this.button25.Location = new System.Drawing.Point(523, 57);
-            this.button25.Margin = new System.Windows.Forms.Padding(2);
-            this.button25.Name = "button25";
-            this.helpProvider1.SetShowHelp(this.button25, true);
-            this.button25.Size = new System.Drawing.Size(42, 42);
-            this.button25.TabIndex = 32;
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // button26
-            // 
-            this.button26.Font = new System.Drawing.Font("Ezra SIL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helpProvider1.SetHelpString(this.button26, resources.GetString("button26.HelpString"));
-            this.button26.Location = new System.Drawing.Point(569, 57);
-            this.button26.Margin = new System.Windows.Forms.Padding(2);
-            this.button26.Name = "button26";
-            this.helpProvider1.SetShowHelp(this.button26, true);
-            this.button26.Size = new System.Drawing.Size(42, 42);
-            this.button26.TabIndex = 34;
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Font = new System.Drawing.Font("Ezra SIL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helpProvider1.SetHelpString(this.button13, resources.GetString("button13.HelpString"));
-            this.button13.Location = new System.Drawing.Point(569, 10);
-            this.button13.Margin = new System.Windows.Forms.Padding(2);
-            this.button13.Name = "button13";
-            this.helpProvider1.SetShowHelp(this.button13, true);
-            this.button13.Size = new System.Drawing.Size(42, 42);
-            this.button13.TabIndex = 33;
-            this.button13.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

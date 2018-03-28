@@ -49,7 +49,7 @@ namespace WindowsFormsApplication1
             Top = _point.Y;
             Left = _point.X;*/
             buchstabenListe.Add('א', new []{ "אְ", "אֱ", "אֲ", "אֳ", "אִ", "אֵ", "אֶ", "אַ", "אָ", "אֹ", "אֻ"});
-            buchstabenListe.Add('ב', new[] { "בְ", "בֱ", "בֲ", "בֳ", "בִ", "בֵ", "בֶ", "בַ", "בָ", "בֹ", "בֻ", "בְּ", "בֱּ", "בֲּ", "בֳּ", "בִּ", "בֵּ", "בֶּ", "בַּ", "בָּ", "בֹּ", "בֻּ" });
+            buchstabenListe.Add('ב', new[] { "בּ", "בְ", "בֱ", "בֲ", "בֳ", "בִ", "בֵ", "בֶ", "בַ", "בָ", "בֹ", "בֻ", "בְּ", "בֱּ", "בֲּ", "בֳּ", "בִּ", "בֵּ", "בֶּ", "בַּ", "בָּ", "בֹּ", "בֻּ" });
             buchstabenListe.Add('ג', new[] { "גְ", "גֱ", "גֲ", "גֳ", "גִ", "גֵ", "גֶ", "גַ", "גָ", "גֹ", "גֻ", "גְּ", "גֱּ", "גֲּ", "גֳּ", "גִּ", "גֵּ", "גֶּ", "גַּ", "גָּ", "גֹּ", "גֻּ" });
             buchstabenListe.Add('ד', new[] { "דְ", "דֱ", "דֲ", "דֳ", "דִ", "דֵ", "דֶ", "דַ", "דָ", "דֹ", "דֻ", "דְּ", "דֱּ", "דֲּ", "דֳּ", "דִּ", "דֵּ", "דֶּ", "דַּ", "דָּ", "דֹּ", "דֻּ" });
             buchstabenListe.Add('ה', new[] { "הְ", "הֱ", "הֲ", "הֳ", "הִ", "הֵ", "הֶ", "הַ", "הָ", "הֹ", "הֻ", "הְּ", "הֱּ", "הֲּ", "הֳּ", "הִּ", "הֵּ", "הֶּ", "הַּ", "הָּ", "הֹּ", "הֻּ" });
@@ -68,7 +68,7 @@ namespace WindowsFormsApplication1
             buchstabenListe.Add('צ', new[] { "צ", "צּ", "צְ", "צֱ", "צֲ", "צֳ", "צִ", "צֵ", "צֶ", "צַ", "צָ", "צֹ", "צֻ", "צְּ", "צֱּ", "צֲּ", "צֳּ", "צִּ", "צֵּ", "צֶּ", "צַּ", "צָּ", "צֹּ", "צֻּ", "ץ" });
             buchstabenListe.Add('ק', new[] { "ק", "קּ", "קְְ", "קֱ", "קֲ", "קֳ", "קִ", "קֵ", "קֶ", "קַ", "קָ", "קֹ", "קֻ", "קְּ", "קֱּ", "קֲּ", "קֳּ", "קִּ", "קֵּ", "קֶּ", "קַּ", "קָּ", "קֹּ", "קֻּ" });
             buchstabenListe.Add('ר', new[] { "ר", "רּ", "רְ", "רֱ", "רֲ", "רֳ", "רִ", "רֵ", "רֶ", "רַ", "רָ", "רֹ", "רֻ", "רְּ", "רֱּ", "רֲּ", "רֳּ", "רִּ", "רֵּ", "רֶּ", "רַּ", "רָּ", "רֹּ", "רֻּ" });
-            buchstabenListe.Add('שׂ', new[] { "שְׂ", "שֱׂ", "שֲׂ", "שֳׂ", "שִׂ", "שֵׂ", "שֶׂ", "שַׂ", "שָׂ", "שֹׂ", "שֻׂ", "שְּׂ", "שֱּׂ", "שֲּׂ", "שֳּׂ", "שִּׂ", "שֵּׂ", "שֶּׂ", "שַּׂ", "שָּׂ", "שֹּׂ", "שֻּׂ" });
+            buchstabenListe.Add('ש', new[] { "‎שׂ", "שְׂ", "שֱׂ", "שֲׂ", "שֳׂ", "שִׂ", "שֵׂ", "שֶׂ", "שַׂ", "שָׂ", "שֹׂ", "שֻׂ", "שְּׂ", "שֱּׂ", "שֲּׂ", "שֳּׂ", "שִּׂ", "שֵּׂ", "שֶּׂ", "שַּׂ", "שָּׂ", "שֹּׂ", "שֻּׂ" });
             buchstabenListe.Add('שׁ', new[] { "שְׁ", "שֱׁ", "שֲׁ", "שֳׁ", "שִׁ", "שֵׁ", "שֶׁ", "שַׁ", "שָׁ", "שֹׁ", "שֻׁ", "שְּׁ", "שֱּׁ", "שֲּׁ", "שֳּׁ", "שִּׁ", "שֵּׁ", "שֶּׁ", "שַּׁ", "שָּׁ", "שֹּׁ", "שֻּׁ" });
             buchstabenListe.Add('ת', new[] { "ת","תּ", "תְ","תֱ","תֲ","תֳ","תִ","תֵ","תֶ","תַ","תָ","תֹ","תֻ","תְּ","תֱּ","תֲּ","תֳּ","תִּ","תֵּ","תֶּ","תַּ","תָּ","תֹּ","תֻּ" });
 
@@ -177,7 +177,7 @@ namespace WindowsFormsApplication1
                 case 'c': addTextToTextBox('צ', e); break;
                 case 'q': addTextToTextBox('ק', e); break;
                 case 'r': addTextToTextBox('ר', e); break;
-                case 'f': addTextToTextBox('שׂ', e); break;
+                case 'f': addTextToTextBox('ש', e); break;
                 case 'v': addTextToTextBox('שׁ', e); break;
                 case 't': addTextToTextBox('ת', e); break;
                 case '$': addTextToTextBox('ך', e); break;
@@ -375,60 +375,76 @@ namespace WindowsFormsApplication1
 
         private void button13_Click(object sender, EventArgs e)
         {
-            if (button14.Text.Length > 0) buttonToTextBox(button14.Text);
+            if (button13.Text.Length > 0) buttonToTextBox(button13.Text);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            if (button15.Text.Length > 0) buttonToTextBox(button15.Text);
+            if (button14.Text.Length > 0) buttonToTextBox(button14.Text);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            if (button16.Text.Length > 0) buttonToTextBox(button16.Text);
+            if (button15.Text.Length > 0) buttonToTextBox(button15.Text);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            if (button17.Text.Length > 0) buttonToTextBox(button17.Text);
+            if (button16.Text.Length > 0) buttonToTextBox(button16.Text);
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            if (button18.Text.Length > 0) buttonToTextBox(button18.Text);
+            if (button17.Text.Length > 0) buttonToTextBox(button17.Text);
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            if (button19.Text.Length > 0) buttonToTextBox(button19.Text);
+            if (button18.Text.Length > 0) buttonToTextBox(button18.Text);
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            if (button20.Text.Length > 0) buttonToTextBox(button20.Text);
+            if (button19.Text.Length > 0) buttonToTextBox(button19.Text);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            if (button21.Text.Length > 0) buttonToTextBox(button21.Text);
+            if (button20.Text.Length > 0) buttonToTextBox(button20.Text);
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            if (button22.Text.Length > 0) buttonToTextBox(button22.Text);
+            if (button21.Text.Length > 0) buttonToTextBox(button21.Text);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            if (button23.Text.Length > 0) buttonToTextBox(button23.Text);
+            if (button22.Text.Length > 0) buttonToTextBox(button22.Text);
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
+            if (button23.Text.Length > 0) buttonToTextBox(button23.Text);
+        }
+
+
+        private void button24_Click(object sender, EventArgs e)
+        {
             if (button24.Text.Length > 0) buttonToTextBox(button24.Text);
         }
 
-        private void button24_Click(object sender, EventArgs e)
+        private void button25_Click(object sender, EventArgs e)
+        {
+            if (button25.Text.Length > 0) buttonToTextBox(button25.Text);
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            if (button26.Text.Length > 0) buttonToTextBox(button26.Text);
+        }
+
+        private void helpBtn_Click(object sender, EventArgs e)
         {
             AboutBox1 abBox = new AboutBox1();
             abBox.Show();

@@ -9,3 +9,5 @@ C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\De
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.exe
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.pdb
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Debug\HOTKeyboard.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\bin\Debug\Microsoft.Azure.Mobile.Analytics.dll
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\bin\Debug\Microsoft.Azure.Mobile.dll
