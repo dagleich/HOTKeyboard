@@ -1,7 +1,7 @@
 # HOTKeyboard
 Type Old Testament Hebrew with automatic word completion.
 
-Download [Windows App](https://rink.hockeyapp.net/apps/6e6ef54d44484b5fbcb10a36e8154271).
+Download [Windows App](https://rink.hockeyapp.net/apps/131a2dc3f9da4e459069baa430feb2d1/).
 
 Here is how it looks:
 
@@ -9,16 +9,13 @@ Here is how it looks:
 
 The following Hebrew letters are mapped with the Latin letters underneath:
 
-| α | β | γ | δ | ε | ζ | η | θ | ι | κ |
-| --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| ---:|
-| a | b | g | d | e | z | h | q | i | k |
+| א | ב | ג | ד | ה | ו | ז | ח | ט | י | כ
+| --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| ---:| ---
+| a | b | g | d | h | w | z | x | j | y | k
 
-λ |	μ |	ν	| ξ |	ο	| π	| ρ	| σ	| ς	| τ
---- | --- | --- | --- | --- | ---| --- | --- | --- | --- 
-l |	m | n |	j |	o |	p |	r | s | v |	t
+ל |	מ |	נ	| ס |	ע	| פ	| צ	| ק	| ר	| ‎שׂ |  שׁ | ת
+--- | --- | --- | --- | --- | ---| --- | --- | --- | --- | --- | ---
+l |	m | n |	s |	[ |	p |	c | q | r |	f | v | t
 
-υ |	φ	| χ |	ψ |	ω
---- | --- | --- | --- | ---
-y |	f |	x |	c |	w	
 
-Whenever α, ε, η, ι, ο, ρ, υ, or ω is typed, the buttons in the box below the entry changes with options for differnt accents and so on.
+Whenever כ, מ, נ, פ, צ is typed, the buttons in the box below will also include the final version of the letter.
