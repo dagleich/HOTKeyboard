@@ -1,13 +1,13 @@
-# GNTKeyboard
-Type New Testament Greek with automatic word completion.
+# HOTKeyboard
+Type Old Testament Hebrew with automatic word completion.
 
 Download [Windows App](https://rink.hockeyapp.net/apps/6e6ef54d44484b5fbcb10a36e8154271).
 
 Here is how it looks:
 
-![alt tag](https://github.com/dagleich/GNTKeyboard/blob/master/GNTKeyboard.png)
+![alt tag](https://github.com/dagleich/GNTKeyboard/blob/master/HOTKeyboard.png)
 
-The following Greek letters are mapped with the Latin letters underneath:
+The following Hebrew letters are mapped with the Latin letters underneath:
 
 | α | β | γ | δ | ε | ζ | η | θ | ι | κ |
 | --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| ---:|
