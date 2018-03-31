@@ -6,6 +6,7 @@ C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Re
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\WindowsFormsApplication1.Form1.resources
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\HOTKeyboard.Properties.Resources.resources
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\HOTKeyboard.Resources.Resource1.resources
-C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\HOTKeyboard.csproj.GenerateResource.Cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\HOTKeyboard.csproj.GenerateResource.cache
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\HOTKeyboard.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\HOTKeyboard.csproj.CopyComplete
 C:\Users\Daniel Gleich\Google Drive\Software\Code\HOTKeyboard\HOTKeyboard\obj\Release\HOTKeyboard.exe

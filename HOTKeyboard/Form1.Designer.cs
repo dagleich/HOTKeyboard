@@ -65,6 +65,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.button27 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -403,7 +404,7 @@
             this.helbButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.helbButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProvider1.SetHelpString(this.helbButton, resources.GetString("helbButton.HelpString"));
-            this.helbButton.Location = new System.Drawing.Point(622, 57);
+            this.helbButton.Location = new System.Drawing.Point(622, 166);
             this.helbButton.Margin = new System.Windows.Forms.Padding(2);
             this.helbButton.Name = "helbButton";
             this.helpProvider1.SetShowHelp(this.helbButton, true);
@@ -550,12 +551,26 @@
             this.checkBox2.UseVisualStyleBackColor = false;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
+            // button27
+            // 
+            this.button27.Font = new System.Drawing.Font("Ezra SIL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpProvider1.SetHelpString(this.button27, resources.GetString("button27.HelpString"));
+            this.button27.Location = new System.Drawing.Point(615, 57);
+            this.button27.Margin = new System.Windows.Forms.Padding(2);
+            this.button27.Name = "button27";
+            this.helpProvider1.SetShowHelp(this.button27, true);
+            this.button27.Size = new System.Drawing.Size(42, 42);
+            this.button27.TabIndex = 35;
+            this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(667, 222);
+            this.Controls.Add(this.button27);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button25);
@@ -644,6 +659,7 @@
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button27;
     }
 }
 
